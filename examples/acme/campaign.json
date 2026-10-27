@@ -1,0 +1,22 @@
+{
+  "id": "acme",
+  "name": "Acme Coffee",
+  "root": "C:\\Campaigns\\acme",
+  "timezone": "Europe/London",
+  "paused": true,
+  "slot": "18:30",
+  "lateLimitMinutes": 120,
+  "bufferMin": 7,
+  "fallbackDays": ["Mon", "Wed", "Fri", "Sun"],
+  "platforms": {
+    "instagram": { "enabled": true },
+    "youtube": { "enabled": false }
+  },
+  "formats": ["episode", "this-or-that", "how-many"],
+  "maxBuilds": 1,
+  "maxAwaiting": 4,
+  "approvers": [],
+  "extraAllowedTools": ["Bash(npx hyperframes:*)", "Bash(ffmpeg:*)", "Bash(ffprobe:*)"],
+  "checks": { "captionPy": true, "detect": true, "detectOnScreen": false, "hookscore": true, "guardrails": true },
+  "videoSpec": { "width": 1080, "height": 1920, "minSeconds": 7, "maxSeconds": 35, "audioRequired": true, "youtubeTitleRequired": true }
+}

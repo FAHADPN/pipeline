@@ -1,0 +1,35 @@
+[
+  {
+    "id": "reel-01-first-sip",
+    "kind": "ep",
+    "format": "episode",
+    "type": "story",
+    "title": "The first sip",
+    "premise": "A sleepy morning: the kettle, the grinder, the bloom, and the first sip that finally switches the day on. The twist: the cup was for the cat-shaped mug on the windowsill all along.",
+    "targetDate": "2026-11-02",
+    "hook": null,
+    "reference": "none: first piece in the series"
+  },
+  {
+    "id": "reel-02-oat-or-whole",
+    "kind": "post",
+    "format": "this-or-that",
+    "type": "participation",
+    "title": "Oat or whole?",
+    "premise": "Five this-or-that pairs for a home flat white: oat or whole, mug or glass, one shot or two, sugar or none, morning or afternoon. Ask viewers to comment their five letters.",
+    "targetDate": "2026-11-04",
+    "hook": null,
+    "reference": "none"
+  },
+  {
+    "id": "reel-03-how-many-habits",
+    "kind": "post",
+    "format": "how-many",
+    "type": "participation",
+    "title": "How many coffee habits do you have?",
+    "premise": "A checklist of seven small home-coffee habits (weighing beans, a favourite mug, reheating the same cup twice...). The viewer counts theirs and comments the number.",
+    "targetDate": "2026-11-06",
+    "hook": null,
+    "reference": "none"
+  }
+]

@@ -1,0 +1,20 @@
+node_modules/
+.tmp/
+*.log
+
+# secrets: they belong in the publisher home (%USERPROFILE%\.pipeline), never here
+.env
+.env.*
+!.env.example
+secrets/
+*.key
+
+# rendered media and build reports, if a campaign is ever kept inside this folder
+out/
+creation-out/
+
+# local tooling
+.superpowers/
+.claude/settings.local.json
+.DS_Store
+Thumbs.db

@@ -1,0 +1,24 @@
+{
+  "name": "pipeline",
+  "version": "1.0.0",
+  "description": "Idea in, Reel out: an AI content pipeline that builds short videos overnight with Claude Code, gets them approved on Telegram and posts them to Instagram, on your own PC.",
+  "license": "AGPL-3.0-only",
+  "private": true,
+  "type": "module",
+  "engines": {
+    "node": ">=22"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/FAHADPN/pipeline.git"
+  },
+  "scripts": {
+    "test": "node --test \"campaigns/test/*.test.mjs\" \"creation/test/*.test.mjs\" \"publishing/test/*.test.mjs\" \"dashboard/test/*.test.mjs\"",
+    "console": "node dashboard/server.mjs",
+    "publish-tick": "node campaigns/pipeline.mjs publish-tick",
+    "create-nightly": "node campaigns/pipeline.mjs create-nightly",
+    "telegram-tick": "node campaigns/pipeline.mjs telegram-tick",
+    "install-tasks": "node campaigns/install-tasks.mjs",
+    "install-console-task": "node dashboard/install-task.mjs"
+  }
+}

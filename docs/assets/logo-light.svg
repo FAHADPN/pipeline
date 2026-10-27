@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="520" height="128" viewBox="0 0 520 128" role="img" aria-label="Pipeline">
+  <rect x="8" y="8" width="112" height="112" rx="28" fill="#E3325E"/>
+  <path d="M34.7 64h14.6l11-29.3 14.7 58.6 11-29.3h7.3" fill="none" stroke="#FFFFFF" stroke-width="8" stroke-linecap="round" stroke-linejoin="round"/>
+  <text x="148" y="88" font-family="Inter, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="72" font-weight="700" letter-spacing="-2" fill="#16181D">Pipeline</text>
+</svg>
