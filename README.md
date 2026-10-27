@@ -15,7 +15,9 @@
 </p>
 
 <p align="center">
-  <a href="docs/assets/pipeline-demo.mp4"><img alt="Watch the 1:42 demo" src="docs/assets/demo-poster.png" width="760"></a>
+  <a href="https://www.youtube.com/watch?v=Ntoq_75Jjow"><img alt="Watch the 1:42 demo on YouTube" src="docs/assets/demo-poster.png" width="760"></a>
+  <br>
+  <a href="https://www.youtube.com/watch?v=Ntoq_75Jjow">Watch the demo on YouTube</a> · <a href="docs/assets/pipeline-demo.mp4">download the MP4</a>
 </p>
 
 Pipeline turns a list of ideas into a Reel every day. Overnight, it builds each piece with headless [Claude Code](https://docs.claude.com/en/docs/claude-code/overview), checks it twice and sends it to your phone. You tap **Approve**, and it posts to Instagram (and optionally YouTube Shorts) at your chosen time. One install runs any number of brands, each with its own account, voice, approvers and skills, from a private admin console you can use from your phone.
